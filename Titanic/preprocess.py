@@ -5,7 +5,7 @@ import pandas as pd
 train_df = pd.read_csv('data/train.csv')
 test_df = pd.read_csv('data/test.csv')
 
-import pandas_profiling as pp
+
 import warnings
 warnings.filterwarnings('ignore')
 
